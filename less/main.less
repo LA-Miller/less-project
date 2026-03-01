@@ -1,0 +1,18 @@
+@import "variables.less";
+@import "nav.less";
+@import "footer.less";
+@import "box.less";
+
+body {
+    margin: 0;
+    background-color: @page-bg;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 80px; // space for fixed nav
+    min-height: 80vh;
+}

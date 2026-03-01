@@ -1,0 +1,23 @@
+.box-style(@color, @size) {
+    background-color: @color;
+    width: @size * 1px;
+    height: @size * 1px;
+    border: @box-border;
+    border-radius: @box-radius;
+}
+
+.red {
+    .box-style(@red-box, 100);
+}
+
+.blue {
+    .box-style(@blue-box, 200);
+}
+
+.green {
+    .box-style(@green-box, 250);
+}
+
+.purple {
+    .box-style(@purple-box, 50);
+}
